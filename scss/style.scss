@@ -1,13 +1,1 @@
 
-
-@import '../node_modules/bootstrap-5.3.1/scss/functions';
-@import '../node_modules/bootstrap-5.3.1/scss/variables';
-
-$custom-colors: (
-    "royalgreen": rgb(169, 247, 14),
-    "royalred": rgb(239, 37, 37)
-);
-
-$theme-colors: map-merge($theme-colors, $custom-colors);
-
-@import "../node_modules/bootstrap-5.3.1/scss/bootstrap.scss";
