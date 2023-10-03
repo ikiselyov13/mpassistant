@@ -1,1 +1,18 @@
 
+
+
+$primary: green;
+
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+
+$custom-colors: (
+    "royalgreen": rgb(16, 237, 16),
+    "royalpurple": rgb(233, 5, 233)
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import '../bootstrap/scss/bootstrap.scss';
+
+@import './test-block';
