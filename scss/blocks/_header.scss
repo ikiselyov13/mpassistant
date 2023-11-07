@@ -1,0 +1,34 @@
+/*.header__logo-pic {
+    object-fit: contain;
+}
+
+.wrap-pic {
+    width: 50%;
+}
+
+.pic {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.text {
+    background: aqua;
+}*/
+
+.header_market-link {
+    color:$red;
+    text-decoration: none;
+}
+
+.header_market-link:hover {
+    text-decoration: underline;
+}
+
+.header_nav-link {
+    color: $black;
+}
+
+.header_nav-link:hover {
+    color: $mpas2;
+}
