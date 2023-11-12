@@ -1,4 +1,5 @@
-$secondary: $red;
+/*$primary: red;*/
+
 
 @import '../bootstrap/scss/functions';
 @import '../bootstrap/scss/variables';
@@ -29,8 +30,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import '../bootstrap/scss/bootstrap.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-@import './general';
 @import './blocks/header';
-@import '../scss/blocks/test-block';
+
+/*@import './blocks/test-block';
+
+@import './general';*/
