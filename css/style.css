@@ -13637,23 +13637,42 @@ body {
 .text {
     background: aqua;
 }*/
-.header_market-link {
-  color: #dc3545;
+.header .header__market-link {
   text-decoration: none;
+  font-weight: 800;
 }
-
-.header_market-link:hover {
+.header .header__market-link:hover {
   text-decoration: underline;
 }
-
-.header_nav-link {
+.header .header__nav-link {
   color: #000;
 }
-
-.header_nav-link:hover {
+.header .header__nav-link:hover {
   color: #2EB897;
+}
+.header .header__entrance {
+  height: 30px;
+  display: block;
+  font-weight: 600;
+}
+.header .header__entrance:hover {
+  color: #2EB897;
+}
+.header .header__button {
+  height: 42px;
+  border-radius: 30px;
+  font-weight: 600;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+}
+.header .header__button:hover {
+  background: #2EB897;
 }
 
 .custom1 {
   background: #fd9843;
+}
+
+.custom1:hover {
+  /*background: $red-400;*/
+  background: linear-gradient(to right, #e35d6a, #58151c);
 }/*# sourceMappingURL=style.css.map */

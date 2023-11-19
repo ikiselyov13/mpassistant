@@ -16,19 +16,42 @@
     background: aqua;
 }*/
 
-.header_market-link {
-    color:$red;
-    text-decoration: none;
-}
+.header {
+    .header__market-link {
+        text-decoration: none;
+        font-weight: 800;
+    }
 
-.header_market-link:hover {
-    text-decoration: underline;
-}
+    .header__market-link:hover {
+        text-decoration: underline;
+    }
 
-.header_nav-link {
-    color: $black;
-}
+    .header__nav-link {
+        color: $black;
+    }
 
-.header_nav-link:hover {
-    color: #2EB897;
+    .header__nav-link:hover {
+        color: #2EB897;
+    }
+
+    .header__entrance {
+        height: 30px;
+        display: block;
+        font-weight: 600;
+    }
+
+        .header__entrance:hover {
+            color: #2EB897;
+        }
+
+    .header__button {
+        height: 42px;
+        border-radius: 30px;
+        font-weight: 600;
+        background: linear-gradient(to right, #11AE88, #0495ba);
+    }
+
+    .header__button:hover {
+        background: #2EB897;
+    }
 }

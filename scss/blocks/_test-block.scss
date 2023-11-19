@@ -1,3 +1,8 @@
 .custom1 {
     background: $orange-400;
 }
+
+.custom1:hover {
+    /*background: $red-400;*/
+    background: linear-gradient(to right, $red-400, $red-800);
+}
