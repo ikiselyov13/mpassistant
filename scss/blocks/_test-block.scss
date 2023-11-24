@@ -6,3 +6,12 @@
     /*background: $red-400;*/
     background: linear-gradient(to right, $red-400, $red-800);
 }
+
+.custom2 {
+    background: $teal-400;
+}
+
+.custom2:hover {
+    /*background: $red-400;*/
+    background: linear-gradient(to right, $teal-400, $teal-800);
+}

@@ -1,0 +1,48 @@
+.internal-analytics {
+
+    .internal-analytics__picture {
+        min-height: 700px;
+        background: url(../../img/internal-analytics/graphics.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .internal-analytics__title {
+        /*min-height: 200px;*/
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 75px;
+    }
+
+    .internal-analytics__form {
+        min-height: 234px;
+        border-radius: 20px;
+        background: linear-gradient(to right, #11AE88, #0495ba);
+    }
+
+    .internal-analytics__box {
+        height: 56px;
+        border-radius: 30px;
+        /*background: $light;*/
+    }
+
+    .internal-analytics__input {
+        border-radius: 30px;
+
+    }
+
+    .internal-analytics__input::placeholder {
+        color: #969EB1;
+    }
+
+    .internal-analytics__button {
+        height: 42px;
+        border-radius: 30px;
+        /*font-weight: 600;*/
+        background: linear-gradient(to right, #11AE88, #0495ba);
+    }
+
+    .internal-analytics__button:hover {
+        background: #2EB897;
+    }
+}

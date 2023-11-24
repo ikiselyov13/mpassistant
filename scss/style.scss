@@ -7,6 +7,7 @@ $custom-colors: (
     "mpas1": #2A84EE,
     "mpas2": #2EB897,
     "mpas3": #969EB1,
+    "mpas4": #6C778E,
     "royalgreen": rgb(16, 237, 16),
     "royalpurple": rgb(233, 5, 233),
     "blue": $blue,
@@ -33,4 +34,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import './general';
 @import './blocks/header';
+@import './blocks/internal-analytics';
 @import '../scss/blocks/test-block';
