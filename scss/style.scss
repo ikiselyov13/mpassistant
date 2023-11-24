@@ -8,6 +8,7 @@ $custom-colors: (
     "mpas2": #2EB897,
     "mpas3": #969EB1,
     "mpas4": #6C778E,
+    "mpas5": #E8F2FC,
     "royalgreen": rgb(16, 237, 16),
     "royalpurple": rgb(233, 5, 233),
     "blue": $blue,
@@ -30,7 +31,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import '../bootstrap/scss/bootstrap.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 @import './general';
 @import './blocks/header';
