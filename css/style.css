@@ -13942,6 +13942,12 @@ body {
   line-height: 38px;
 }
 
+.save {
+  min-height: 310px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+}
+
 .custom1 {
   background: #fd9843;
 }
