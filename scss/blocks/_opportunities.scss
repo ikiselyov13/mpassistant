@@ -1,0 +1,47 @@
+.opportunities {
+    min-height: 750px;
+
+    .opportunities__title {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    .opportunities__card {
+        min-height: 700px;
+        box-shadow: 1px 8px 16px 1px rgba(46, 184, 151, 0.1);
+    }
+
+    .opportunities__list {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .opportunities__nav-item-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opportunities__nav-item-link {
+        min-height: 30px;
+        /*color:$mpas2;*/
+        color: #2EB897;
+    }
+
+    .opportunities__nav-item-link:hover {
+        min-height: 30px;
+        /*color:$mpas1;*/
+        color: #2A84EE;
+    }
+
+    .opportunities__content {
+
+        .opportunities__content-title {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 38px;
+        }
+    }
+}

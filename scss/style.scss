@@ -36,4 +36,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './general';
 @import './blocks/header';
 @import './blocks/internal-analytics';
+@import './blocks/opportunities';
 @import '../scss/blocks/test-block';

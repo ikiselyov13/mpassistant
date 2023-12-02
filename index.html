@@ -43,7 +43,7 @@
                         <img src="img/header/entrance.png" alt="entrance">
                         <span>Вход</span>
                     </a>
-                    <button class="text-white border-0 px-4 header__button" type="submit">Зарегистрироваться</button>
+                    <button class=" px-4 button" type="button">Зарегистрироваться</button>
                     <!--Мелькает кнопка при наведении. Конфтиклуют классы .btn и св-во linear-gradient.
                         
                         <button class="btn text-white border-0 w-50 header__button" type="submit">Зарегистрироваться</button>-->
@@ -74,28 +74,76 @@
                     <label class="w-100">
                         <span class="visually-hidden">Email</span>
                         <div class="row bg-light p-2 internal-analytics__box">
-                            <input type="text" required placeholder="Введите ваш email" class="form-control border-0 h-100 w-50 internal-analytics__input">
+                            <input type="text" required placeholder="Введите ваш email"
+                                class="form-control border-0 h-100 w-50 internal-analytics__input">
                             <button type="submit"
-                                class="text-white align-self-center border-0 px-4 w-50 internal-analytics__button">Попробовать</button>
+                                class="align-self-center px-4 w-50 button">Попробовать</button>
                         </div>
                     </label>
                 </form>
             </div>
-            <div class="row bg-mpas5 rounded mt-5 py-5 internal-analytics__profit">
+            <div class="row bg-mpas5 rounded my-5 py-5 internal-analytics__profit">
                 <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0   internal-analytics__profit-number">777</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй рутину и экономь время на сборе и анализе отчётов</p>
+                    <p class="text-mpas1 m-0 internal-analytics__profit-number">777</p>
+                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                        рутину и экономь время на сборе и анализе отчётов</p>
                 </div>
                 <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0   internal-analytics__profit-number">5</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй рутину и экономь
+                    <p class="text-mpas1 m-0 internal-analytics__profit-number">5</p>
+                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                        рутину и экономь
                         время на сборе и анализе отчётов</p>
                 </div>
                 <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0   internal-analytics__profit-number">100 000</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй рутину и экономь
+                    <p class="text-mpas1 m-0 internal-analytics__profit-number">100 000</p>
+                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                        рутину и экономь
                         время на сборе и анализе отчётов</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid wrap p-0 pt-5 opportunities">
+        <h2 class="mb-5 opportunities__title">Возможности сервиса</h2>
+        <!--БС Карточки-Навигация-->
+        <div class="card text-center mb-5 opportunities__card">
+            <div class="card-header px-2 py-0">
+                <ul class="nav nav-tabs card-header-tabs justify-content-between bg-mpas5 opportunities__list">
+                    <li class="nav-item col bg-light py-0 opportunities__nav-item-title">
+                        <a class="nav-link active border-0 opportunities__nav-item-link" aria-current="true"
+                            href="#">Финансовая аналитика</a>
+                    </li>
+                    <li class="nav-item col py-4 opportunities__nav-item-title">
+                        <a class="nav-link opportunities__nav-item-link" href="#">Товарная аналитика</a>
+                    </li>
+                    <li class="nav-item col py-4 opportunities__nav-item-title">
+                        <a class="nav-link opportunities__nav-item-link" href="#">Аналитика внутренней рекламы</a>
+                    </li>
+                    <li class="nav-item col py-4 opportunities__nav-item-title">
+                        <a class="nav-link opportunities__nav-item-link" href="#">Статистика</a>
+                    </li>
+                    <li class="nav-item col py-4 opportunities__nav-item-title">
+                        <a class="nav-link opportunities__nav-item-link" href="#">Инструменты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body row d-flex justify-content-between p-5 bg-light">
+                <div class="col-5 d-flex flex-column opportunities__content">
+                    <h3 class="card-title text-start pb-3 opportunities__content-title">Инструменты для финансовой аналитики
+                    </h3>
+                    <ul class="text-mpas2 text-start gy-3 row opportunities__content-list">
+                        <li class="opportunities__content-item">Отчёт о прибылях и убытках (P&L)</li>
+                        <li class="opportunities__content-item">Отчёт о движении денежных средств (ДДС)</li>
+                        <li class="opportunities__content-item">Журнал операций</li>
+                        <li class="opportunities__content-item">Сводка продаж</li>
+                        <li class="opportunities__content-item">Учёт самовыкупов</li>
+                    </ul>
+                    <button class="mt-3 px-4 w-50 button" type="button">Попробовать бесплатно</button>
+                </div>
+                <div class="col-6">
+                    <img src="./img/opportunities/capabilities.png" alt="capabilities" class="img-fluid">
+                </div>
+
             </div>
         </div>
     </section>

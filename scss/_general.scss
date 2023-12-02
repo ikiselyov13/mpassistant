@@ -9,3 +9,17 @@ body {
     width: 83%;
     /*background: yellow;*/
 }
+
+.button {
+    height: 42px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: linear-gradient(to right, #11AE88, #0495ba);
+}
+
+.button:hover {
+    background: #2EB897;
+}
