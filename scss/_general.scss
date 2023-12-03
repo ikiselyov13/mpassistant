@@ -25,8 +25,9 @@ body {
 }
 
 .form-box {
-    @include form-box;
-    /*min-height: 234px;
+    @include form-box-props (500px, 60px);
+    /*@include form-box;
+    min-height: 234px;
     border-radius: 20px;
     background: linear-gradient(to right, #11AE88, #0495ba);*/
     color: $light;
