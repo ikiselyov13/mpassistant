@@ -25,10 +25,11 @@ body {
 }
 
 .form-box {
-    min-height: 234px;
+    @include form-box;
+    /*min-height: 234px;
     border-radius: 20px;
+    background: linear-gradient(to right, #11AE88, #0495ba);*/
     color: $light;
-    background: linear-gradient(to right, #11AE88, #0495ba);
 }
 
 .form {
