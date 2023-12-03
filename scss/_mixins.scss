@@ -2,7 +2,7 @@
     min-height: 234px;
     border-radius: 20px;
     background: linear-gradient(to right, #11AE88, #0495ba);
-    /*background: linear-gradient(to right, #de4a0a, #04ba04);*/
+    color: $light;
 }
 
 @mixin form-box-props ($min-height: 234px, $border-radius: 20px, $background: linear-gradient(to right, #de4a0a,

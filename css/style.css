@@ -13823,14 +13823,15 @@ body {
 }
 
 .form-box {
-  min-height: 500px;
-  border-radius: 60px;
-  background: linear-gradient(to right, #de4a0a, #04ba04);
+  min-height: 234px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+  color: #f8f9fa;
   /*@include form-box;
   min-height: 234px;
   border-radius: 20px;
-  background: linear-gradient(to right, #11AE88, #0495ba);*/
-  color: #f8f9fa;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+  color: $light;*/
 }
 
 .form .form__wrap {
@@ -13846,6 +13847,7 @@ body {
   border-radius: 30px;
 }
 .form .form__input::placeholder {
+  /*color: mpas3*/
   color: #969EB1;
 }
 
