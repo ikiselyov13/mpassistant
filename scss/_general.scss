@@ -24,3 +24,31 @@ body {
     background: #2EB897;
 }
 
+.form-box {
+    min-height: 234px;
+    border-radius: 20px;
+    color: $light;
+    background: linear-gradient(to right, #11AE88, #0495ba);
+}
+
+.form {
+
+    .form__wrap {
+        height: 56px;
+        border-radius: 30px;
+    }
+
+    .form__title {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    .form__input {
+        border-radius: 30px;
+    }
+
+    .form__input::placeholder {
+        color: #969EB1;
+    }
+}
