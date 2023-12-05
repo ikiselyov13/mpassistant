@@ -13822,6 +13822,35 @@ body {
   background: #2EB897;
 }
 
+.form-box {
+  /*@include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);*/
+  min-height: 234px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+  color: #f8f9fa;
+  /*min-height: 234px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+  color: $light;*/
+}
+
+.form .form__wrap {
+  height: 56px;
+  border-radius: 30px;
+}
+.form .form__title {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.form .form__input {
+  border-radius: 30px;
+}
+.form .form__input::placeholder {
+  /*color: mpas3*/
+  color: #969EB1;
+}
+
 .header {
   /*.header__button {
       height: 42px;
@@ -13857,6 +13886,19 @@ body {
 }
 
 .internal-analytics {
+  /*.internal-analytics__box {
+      height: 56px;
+      border-radius: 30px;
+  }
+
+  .internal-analytics__input {
+      border-radius: 30px;
+
+  }
+
+  .internal-analytics__input::placeholder {
+      color: #969EB1;
+  }*/
   /*.internal-analytics__button {
       height: 42px;
       border-radius: 30px;
@@ -13883,17 +13925,7 @@ body {
   min-height: 234px;
   border-radius: 20px;
   background: linear-gradient(to right, #11AE88, #0495ba);
-}
-.internal-analytics .internal-analytics__box {
-  height: 56px;
-  border-radius: 30px;
-  /*background: $light;*/
-}
-.internal-analytics .internal-analytics__input {
-  border-radius: 30px;
-}
-.internal-analytics .internal-analytics__input::placeholder {
-  color: #969EB1;
+  color: #f8f9fa;
 }
 .internal-analytics .internal-analytics__profit {
   min-height: 256px;
@@ -13944,8 +13976,14 @@ body {
 
 .save {
   min-height: 310px;
+  /*border-radius: 30px;
+  background: linear-gradient(to right, #11AE88, #0495ba);*/
+}
+.save .save__form {
+  min-height: 234px;
   border-radius: 20px;
   background: linear-gradient(to right, #11AE88, #0495ba);
+  color: #f8f9fa;
 }
 
 .custom1 {

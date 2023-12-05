@@ -24,3 +24,34 @@ body {
     background: #2EB897;
 }
 
+.form-box {
+    /*@include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);*/
+    @include form-box;
+    /*min-height: 234px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #11AE88, #0495ba);
+    color: $light;*/
+}
+
+.form {
+
+    .form__wrap {
+        height: 56px;
+        border-radius: 30px;
+    }
+
+    .form__title {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 58px;
+    }
+
+    .form__input {
+        border-radius: 30px;
+    }
+
+    .form__input::placeholder {
+        /*color: mpas3*/
+        color: #969EB1;
+    }
+}
