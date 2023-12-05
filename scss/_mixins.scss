@@ -1,13 +1,14 @@
-@mixin form-box {
+/*@mixin form-box {
     min-height: 234px;
     border-radius: 20px;
     background: linear-gradient(to right, #11AE88, #0495ba);
     color: $light;
-}
+}*/
 
-@mixin form-box-props ($min-height: 234px, $border-radius: 20px, $background: linear-gradient(to right, #de4a0a,
-#04ba04)) {
+@mixin form-box-props ($min-height: 234px, $border-radius: 20px, $background: linear-gradient(to right, #11AE88,
+#0495ba), $color: $light) {
     min-height: $min-height;
     border-radius: $border-radius;
     background: $background;
+    color: $color;
 }

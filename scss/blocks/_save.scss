@@ -2,4 +2,8 @@
     min-height: 310px;
     /*border-radius: 30px;
     background: linear-gradient(to right, #11AE88, #0495ba);*/
+
+    .save__form {
+        @include form-box-props;
+    }
 }

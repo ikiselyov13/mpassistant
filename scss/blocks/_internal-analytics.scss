@@ -13,13 +13,11 @@
         line-height: 75px;
     }
 
-    /*.internal-analytics__form {
-        min-height: 234px;
-        border-radius: 20px;
-        background: linear-gradient(to right, #11AE88, #0495ba);
+    .internal-analytics__form {
+        @include form-box-props;
     }
 
-    .internal-analytics__box {
+        /*.internal-analytics__box {
         height: 56px;
         border-radius: 30px;
     }
