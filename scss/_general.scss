@@ -24,14 +24,13 @@ body {
     background: #2EB897;
 }
 
-.form-box {
-    /*@include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);*/
-    @include form-box;
-    /*min-height: 234px;
+/*.form-box {
+    @include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);
+    min-height: 234px;
     border-radius: 20px;
     background: linear-gradient(to right, #11AE88, #0495ba);
-    color: $light;*/
-}
+    color: $light;
+}*/
 
 .form {
 

@@ -13796,6 +13796,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/*@mixin form-box {
+    min-height: 234px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #11AE88, #0495ba);
+    color: $light;
+}*/
 body {
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -13822,18 +13828,13 @@ body {
   background: #2EB897;
 }
 
-.form-box {
-  /*@include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);*/
-  min-height: 234px;
-  border-radius: 20px;
-  background: linear-gradient(to right, #11AE88, #0495ba);
-  color: #f8f9fa;
-  /*min-height: 234px;
-  border-radius: 20px;
-  background: linear-gradient(to right, #11AE88, #0495ba);
-  color: $light;*/
-}
-
+/*.form-box {
+    @include form-box-props (234px, 20px, linear-gradient(to right, #de4a0a, #04ba04), $info);
+    min-height: 234px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #11AE88, #0495ba);
+    color: $light;
+}*/
 .form .form__wrap {
   height: 56px;
   border-radius: 30px;
@@ -13984,6 +13985,9 @@ body {
   border-radius: 20px;
   background: linear-gradient(to right, #11AE88, #0495ba);
   color: #f8f9fa;
+}
+.save .save__picture {
+  color: red;
 }
 
 .custom1 {

@@ -6,4 +6,8 @@
     .save__form {
         @include form-box-props;
     }
+
+    .save__picture {
+        color: red;
+    }
 }
