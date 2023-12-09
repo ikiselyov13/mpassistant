@@ -1,13 +1,18 @@
 .save {
     min-height: 310px;
-    /*border-radius: 30px;
-    background: linear-gradient(to right, #11AE88, #0495ba);*/
 
     .save__form {
         @include form-box-props;
     }
 
     .save__picture {
-        color: red;
+        position: relative;
+
+        .save__picture-element {
+            position: absolute;
+            z-index: 1;
+            bottom: -48px;
+            left: 200px;
+        }
     }
 }

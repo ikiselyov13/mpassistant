@@ -13977,8 +13977,6 @@ body {
 
 .save {
   min-height: 310px;
-  /*border-radius: 30px;
-  background: linear-gradient(to right, #11AE88, #0495ba);*/
 }
 .save .save__form {
   min-height: 234px;
@@ -13987,7 +13985,13 @@ body {
   color: #f8f9fa;
 }
 .save .save__picture {
-  color: red;
+  position: relative;
+}
+.save .save__picture .save__picture-element {
+  position: absolute;
+  z-index: 1;
+  bottom: -48px;
+  left: 200px;
 }
 
 .custom1 {
