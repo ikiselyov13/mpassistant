@@ -12,60 +12,57 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container-fluid wrap">
-            <div class="row mt-3">
-                <div class="col-4 d-flex">
-                    <div class="col-6">
-                        <img class="img-fluid px-3" src="img/header/logo-mpassistant.png" alt="mpassistant">
-                    </div>
-                    <p class="col-6 text-mpas3 fs-6">Аналитика и оцифровка продаж
-                        <a class="text-purple header__market-link" href="#">Wildberries</a>
-                        и 
-                        <a class="text-blue header__market-link" href="#">Ozon</a>
-                    </p>
+    <header class="container-fluid wrap header">
+        <div class="row mt-3">
+            <div class="col-4 d-flex">
+                <div class="col-6">
+                    <img class="img-fluid px-3" src="img/header/logo-mpassistant.png" alt="mpassistant">
                 </div>
-                <div class="col-4">
-                    <ul class="nav justify-content-center ">
-                        <li class="nav-item">
-                            <a class="nav-link header__nav-link" href="#">О нас</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__nav-link" href="#">Возможности</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link header__nav-link" href="#">Тарифы</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4 d-flex justify-content-end">
-                    <a class="btn me-1 header__entrance" href="#" role="button">
-                        <img src="img/header/entrance.png" alt="entrance">
-                        <span>Вход</span>
-                    </a>
-                    <button class=" px-4 button" type="button">Зарегистрироваться</button>
-                    <!--Мелькает кнопка при наведении. Конфтиклуют классы .btn и св-во linear-gradient.
+                <p class="col-6 text-mpas3 fs-6">Аналитика и оцифровка продаж
+                    <a class="text-purple header__market-link" href="#">Wildberries</a>
+                    и 
+                    <a class="text-blue header__market-link" href="#">Ozon</a>
+                </p>
+            </div>
+            <div class="col-4">
+                <ul class="nav justify-content-center ">
+                    <li class="nav-item">
+                        <a class="nav-link header__nav-link" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header__nav-link" href="#">Возможности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link header__nav-link" href="#">Тарифы</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+                <a class="btn me-1 header__entrance" href="#" role="button">
+                    <img src="img/header/entrance.png" alt="entrance">
+                    <span>Вход</span>
+                </a>
+                <button class=" px-4 button" type="button">Зарегистрироваться</button>
+                <!--Мелькает кнопка при наведении. Конфтиклуют классы .btn и св-во linear-gradient.
                         
                         <button class="btn text-white border-0 w-50 header__button" type="submit">Зарегистрироваться</button>-->
-                </div>
             </div>
         </div>
     </header>
-    <section class="internal-analytics">
-        <div class="container-fluid wrap">
-            <div class="internal-analytics__picture">
-                <h1 class="col-8 internal-analytics__title">
-                    <span class="text-mpas2">Внутренняя аналитика</span>
-                    и
-                    <span class="text-mpas1">финансовый учёт</span>
-                    для бизнеса на маркетплейсах
-                    <img src="./img/internal-analytics/marketplaces-logos.png" alt="marketplaces-logos">
-                </h1>
-                <p class="col-6 text-mpas4 my-5 internal-analytics__slogan">Увеличивай прибыль, автоматизируй рутину
-                    и экономь время
-                    на сборе и анализе отчётов</p>
+    <section class="container-fluid wrap internal-analytics">
+        <div class="internal-analytics__picture">
+            <h1 class="col-8 internal-analytics__title">
+                <span class="text-mpas2">Внутренняя аналитика</span>
+                и
+                <span class="text-mpas1">финансовый учёт</span>
+                для бизнеса на маркетплейсах
+                <img src="./img/internal-analytics/marketplaces-logos.png" alt="marketplaces-logos">
+            </h1>
+            <p class="col-6 text-mpas4 my-5 internal-analytics__slogan">Увеличивай прибыль, автоматизируй рутину
+                и экономь время
+                на сборе и анализе отчётов</p>
 
-                <!--Форма internal-analytics
+            <!--Форма internal-analytics
 
                 <form action="/" method="post" class="col-6 px-5 py-5 text-light internal-analytics__form">
                     <p class="lh-base mb-4">Начните свой 3-дневный пробный
@@ -83,43 +80,42 @@
                 </form>-->
 
 
-                <!--Общая форма-->
+            <!--Общая форма-->
 
-                <div class="col-6 px-5 py-5 internal-analytics__form">
-                    <form action="/" method="post" class="form">
-                        <p class="lh-base mb-4">Начните свой 3-дневный пробный
-                            период
-                            с неограниченным доступом ко всем возможностям</p>
-                        <label class="w-100">
-                            <span class="visually-hidden">Email</span>
-                            <div class="row bg-light p-2 form__wrap">
-                                <input type="text" required placeholder="Введите ваш email"
-                                    class="form-control border-0 h-100 w-50 form__input">
-                                <button type="submit" class="align-self-center px-4 w-50 button">Попробовать</button>
-                            </div>
-                        </label>
-                    </form>
-                </div>
-
+            <div class="col-6 px-5 py-5 internal-analytics__form">
+                <form action="/" method="post" class="form">
+                    <p class="lh-base mb-4">Начните свой 3-дневный пробный
+                        период
+                        с неограниченным доступом ко всем возможностям</p>
+                    <label class="w-100">
+                        <span class="visually-hidden">Email</span>
+                        <div class="row bg-light p-2 form__wrap">
+                            <input type="text" required placeholder="Введите ваш email"
+                                class="form-control border-0 h-100 w-50 form__input">
+                            <button type="submit" class="align-self-center px-4 w-50 button">Попробовать</button>
+                        </div>
+                    </label>
+                </form>
             </div>
-            <div class="row bg-mpas5 rounded my-5 py-5 internal-analytics__profit">
-                <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0 internal-analytics__profit-number">777</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
-                        рутину и экономь время на сборе и анализе отчётов</p>
-                </div>
-                <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0 internal-analytics__profit-number">5</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
-                        рутину и экономь
-                        время на сборе и анализе отчётов</p>
-                </div>
-                <div class="col-4 px-5">
-                    <p class="text-mpas1 m-0 internal-analytics__profit-number">100 000</p>
-                    <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
-                        рутину и экономь
-                        время на сборе и анализе отчётов</p>
-                </div>
+
+        </div>
+        <div class="row bg-mpas5 rounded my-5 py-5 internal-analytics__profit">
+            <div class="col-4 px-5">
+                <p class="text-mpas1 m-0 internal-analytics__profit-number">777</p>
+                <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                    рутину и экономь время на сборе и анализе отчётов</p>
+            </div>
+            <div class="col-4 px-5">
+                <p class="text-mpas1 m-0 internal-analytics__profit-number">5</p>
+                <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                    рутину и экономь
+                    время на сборе и анализе отчётов</p>
+            </div>
+            <div class="col-4 px-5">
+                <p class="text-mpas1 m-0 internal-analytics__profit-number">100 000</p>
+                <p class="text-mpas4 m-0 lh-base internal-analytics__profit-text">Увеличивай прибыль, автоматизируй
+                    рутину и экономь
+                    время на сборе и анализе отчётов</p>
             </div>
         </div>
     </section>
@@ -191,14 +187,12 @@
             </div>
         </div>
     </section>
-    <section class="collecting">
-        <div class="container-fluid wrap">
-            <div class="row">
-                <div class="col-6">
-                    <h2 class="collecting__title">Собираем единые отчёты по всем вашим магазинам</h2>
-                </div>
-                <div class="col-6"></div>
+    <section class="container-fluid wrap collecting">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="collecting__title">Собираем единые отчёты по всем вашим магазинам</h2>
             </div>
+            <div class="col-6"></div>
         </div>
     </section>
 
