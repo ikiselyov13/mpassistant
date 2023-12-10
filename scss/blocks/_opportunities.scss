@@ -2,14 +2,11 @@
     min-height: 750px;
 
     .opportunities__title {
-        font-size: 46px;
-        font-weight: 700;
-        line-height: 58px;
+        @include section-title;
     }
 
     .opportunities__card {
         min-height: 700px;
-        box-shadow: 1px 8px 16px 1px rgba(46, 184, 151, 0.1);
     }
 
     .opportunities__list {

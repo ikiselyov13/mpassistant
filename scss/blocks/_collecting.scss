@@ -1,0 +1,22 @@
+.collecting {
+
+    .collecting__title {
+        @include section-title;
+    }
+
+    .collecting__item {
+        background: #E8F2FC;
+        border-radius: 10px;
+    }
+
+    .collecting__list-counter {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+    }
+
+    .collecting__picture {
+        
+        background: radial-gradient(#2EB89726, #FFFFFF);
+    }
+}

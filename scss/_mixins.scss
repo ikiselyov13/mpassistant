@@ -6,9 +6,15 @@
 }*/
 
 @mixin form-box-props ($min-height: 234px, $border-radius: 20px, $background: linear-gradient(to right, #11AE88,
-#0495ba), $color: $light) {
+        #0495ba), $color: $light) {
     min-height: $min-height;
     border-radius: $border-radius;
     background: $background;
     color: $color;
+}
+
+@mixin section-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
 }

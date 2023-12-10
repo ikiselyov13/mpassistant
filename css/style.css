@@ -13807,11 +13807,16 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 28px;
+  letter-spacing: 0.1rem;
 }
 
 .wrap {
   width: 83%;
-  background: yellow;
+  /*background: yellow;*/
+}
+
+.mpas-shadow {
+  box-shadow: 1px 8px 16px 1px rgba(46, 184, 151, 0.1);
 }
 
 .button {
@@ -13840,7 +13845,7 @@ body {
   border-radius: 30px;
 }
 .form .form__title {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 58px;
 }
@@ -13941,13 +13946,12 @@ body {
   min-height: 750px;
 }
 .opportunities .opportunities__title {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 58px;
 }
 .opportunities .opportunities__card {
   min-height: 700px;
-  box-shadow: 1px 8px 16px 1px rgba(46, 184, 151, 0.1);
 }
 .opportunities .opportunities__list {
   font-size: 26px;
@@ -13992,6 +13996,24 @@ body {
   z-index: 1;
   bottom: -48px;
   left: 200px;
+}
+
+.collecting .collecting__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.collecting .collecting__item {
+  background: #E8F2FC;
+  border-radius: 10px;
+}
+.collecting .collecting__list-counter {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+}
+.collecting .collecting__picture {
+  background: radial-gradient(rgba(46, 184, 151, 0.1490196078), #FFFFFF);
 }
 
 .custom1 {

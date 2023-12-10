@@ -39,4 +39,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './blocks/internal-analytics';
 @import './blocks/opportunities';
 @import './blocks/save';
+@import './blocks/collecting';
 @import '../scss/blocks/test-block';

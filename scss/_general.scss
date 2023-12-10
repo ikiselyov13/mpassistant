@@ -3,11 +3,16 @@ body {
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
+    letter-spacing: .1rem;
 }
 
 .wrap {
     width: 83%;
-    background: yellow;
+    /*background: yellow;*/
+}
+
+.mpas-shadow {
+    box-shadow: 1px 8px 16px 1px rgba(46, 184, 151, 0.1);
 }
 
 .button {
@@ -40,9 +45,7 @@ body {
     }
 
     .form__title {
-        font-size: 46px;
-        font-weight: 700;
-        line-height: 58px;
+        @include section-title;
     }
 
     .form__input {
