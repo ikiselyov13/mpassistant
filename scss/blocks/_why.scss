@@ -1,0 +1,23 @@
+.why {
+
+    .why__title {
+        @include section-title;
+    }
+
+    .why__item {
+
+        .why__item-wrap {
+            min-height: 340px;
+            border-radius: 10px;
+        }
+
+        .why__item-title {
+            @include section-subtitle;
+        }
+
+        .why__item-icon {
+            height: 35px;
+            width: 35px;
+        }
+    }
+}

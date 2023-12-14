@@ -18,3 +18,9 @@
     font-weight: 700;
     line-height: 58px;
 }
+
+@mixin section-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
