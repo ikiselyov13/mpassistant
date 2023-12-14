@@ -14527,6 +14527,12 @@ textarea.form-control-lg {
     background: linear-gradient(to right, #11AE88, #0495ba);
     color: $light;
 }*/
+/*@mixin picture-element {
+    position: absolute;
+    z-index: 1;
+    bottom: -48px;
+    left: 200px;
+}*/
 body {
   font-family: "Lato", sans-serif;
   font-size: 22px;
@@ -14758,6 +14764,37 @@ body {
 .why .why__item .why__item-icon {
   height: 35px;
   width: 35px;
+}
+
+.trial {
+  min-height: 310px;
+}
+.trial .trial__form {
+  min-height: 234px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #11AE88, #0495ba);
+  color: #f8f9fa;
+}
+.trial .trial__picture {
+  position: relative;
+}
+.trial .trial__picture .trial__picture-element-1 {
+  position: absolute;
+  z-index: 0;
+  bottom: -48px;
+  left: 0px;
+}
+.trial .trial__picture .trial__picture-element-2 {
+  position: absolute;
+  z-index: 1;
+  bottom: -48px;
+  left: 150px;
+}
+.trial .trial__picture .trial__picture-element-3 {
+  position: absolute;
+  z-index: 0;
+  bottom: 0px;
+  left: 470px;
 }
 
 .custom1 {

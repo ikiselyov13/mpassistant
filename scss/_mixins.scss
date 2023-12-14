@@ -24,3 +24,17 @@
     font-weight: 700;
     line-height: 38px;
 }
+
+/*@mixin picture-element {
+    position: absolute;
+    z-index: 1;
+    bottom: -48px;
+    left: 200px;
+}*/
+
+@mixin picture-element ($position: absolute, $z-index: 0, $bottom: -48px, $left: 200px) {
+    position: $position;
+    z-index: $z-index;
+    bottom: $bottom;
+    left: $left;
+}

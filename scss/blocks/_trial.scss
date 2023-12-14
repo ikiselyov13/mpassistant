@@ -1,0 +1,23 @@
+.trial {
+    min-height: 310px;
+
+    .trial__form {
+        @include form-box-props;
+    }
+
+    .trial__picture {
+        position: relative;
+
+        .trial__picture-element-1 {
+            @include picture-element(absolute, 0, -48px, 0px);
+        }
+
+        .trial__picture-element-2 {
+            @include picture-element(absolute, 1, -48px, 150px);
+        }
+
+        .trial__picture-element-3 {
+            @include picture-element(absolute, 0, -0px, 470px);
+        }
+    }
+}
