@@ -14555,13 +14555,20 @@ body {
   border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
-  color: white;
+  background: transparent;
+  /*border-color: mpas2*/
+  border: 2px solid #2EB897;
+}
+
+.button--mpas {
   border: none;
+  color: white;
   background: linear-gradient(to right, #11AE88, #0495ba);
-  opacity: 100%;
 }
 
 .button:hover {
+  border: none;
+  color: white;
   background: #2EB897;
 }
 
