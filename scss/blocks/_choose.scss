@@ -4,21 +4,57 @@
         @include section-title;
     }
 
+    .choose__header-button {
+        width: 45%;
+    }
+
     .choose__item {
 
         .choose__item-wrap {
-            min-height: 351px;
+            /*background-color: mpas5;*/
+            background: #E8F2FC;
+            min-height: 290px;
             border-radius: 10px;
+            position: relative;
+        }
+
+        .choose__item-wrap:hover {
+            background: $white;
+            @include shadow;
+            cursor: pointer;
+        }
+
+        .choose__item-wrap--profi {
+            /*background: #d5f5ed;*/
+            background: #e9f7f4;
+        }
+
+        .choose__item-discount {
+            width: 100px;
+            height: 50px;
+            border-radius: 0 10px 0 10px;
+            color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /*background-color: mpas1;*/
+            background: #2A84EE;
+            font-size: 20px;
+            font-weight: 700;
         }
 
         .choose__item-title {
             @include section-subtitle;
         }
 
+        .choose__item-payment {
+            height: 30px;
+        }
+
         .choose__item-text {
             font-size: 30px;
             font-weight: 700;
-            line-height: 58px;
+            /*line-height: 58px;*/
         }
     }
 

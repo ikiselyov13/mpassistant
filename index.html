@@ -104,7 +104,7 @@
     <section class="container-fluid wrap py-5 opportunities">
         <h2 class="mb-5 opportunities__title">Возможности сервиса</h2>
         <!--БС Карточки-Навигация-->
-        <div class="card text-center mb-5 mpas-shadow opportunities__card">
+        <div class="card text-center mb-5 border-0 opportunities__card">
             <div class="card-header px-2 py-0">
                 <ul class="nav nav-tabs card-header-tabs justify-content-between bg-mpas5 opportunities__list">
                     <li class="nav-item col bg-light py-0 opportunities__nav-item-title">
@@ -296,23 +296,24 @@
         </div>
     </section>
     <section class="container-fluid wrap my-5 px-0 py-5 choose">
-        <h2 class="choose__title">Выберите тариф</h2>
+        <h2 class=" mb-4 choose__title">Выберите тариф</h2>
         <div class="row">
-            <div class="d-flex justify-content-between col-4 px-3 bg-red">
-                <button type="button" class="align-self-center px-4 button button--mpas">1 месяц</button>
-                <button type="button" class="align-self-center px-4 button">3 месяца</button>
+            <div class="d-flex justify-content-between col-4 px-3">
+                <button type="button" class="align-self-center px-4 button choose__header-button">1 месяц</button>
+                <button type="button" class="align-self-center px-4 button choose__header-button">3 месяца</button>
             </div>
-            <div class="d-flex justify-content-between col-4 px-3 bg-teal"><button type="submit"
-                    class="align-self-center px-4 button">6 месяцев</button>
-                <button type="submit" class="align-self-center px-4 button">6 месяцев</button>
+            <div class="d-flex justify-content-between col-4 px-3"><button type="submit"
+                    class="align-self-center px-4 button choose__header-button">6 месяцев</button>
+                <button type="submit" class="align-self-center px-4 button choose__header-button">6 месяцев</button>
             </div>
         </div>
         <ul class="d-flex justify-content-between flex-wrap list-unstyled my-4 mx-n3">
-            <li class="col-4  choose__item">
-                <div class="m-3 p-5 bg-mpas5 choose__item-wrap">
+            <li class="col-4 choose__item">
+                <div class="m-3 p-4 choose__item-wrap">
                     <div class="d-flex choose__item-header">
-                        <h3 class="mb-5 choose__item-title">Стартовый</h3>
+                        <h3 class="mb-3 choose__item-title">Стартовый</h3>
                     </div>
+                    <p class="mb-2 choose__item-payment"></p>
                     <p class="text-mpas1 choose__item-text">4 990 ₽</p>
                     <button type="button" class="d-block w-100 align-self-center mb-3 px-4 button button--mpas">Попробовать</button>
                     <button type="button" class="d-block w-100 align-self-center px-4 button">
@@ -321,29 +322,51 @@
                     </button>
                 </div>
             </li>
-            <li class="col-4  choose__item">
-                <div class="m-3 p-4 bg-mpas5 choose__item-wrap">
-                    <div class="d-flex choose__item-header">
-                        <h3 class="ps-3 choose__item-title">Лёгкость освоения</h3>
+            <li class="col-4 choose__item">
+                <div class="m-3 p-4 choose__item-wrap">
+                    <div class="text-center choose__item-discount">
+                        <span class="d-block my-2">— 10%</span>
                     </div>
-                    <p class="text-mpas4 choose__item-text">Наши отчёты просты и удобны. Все отчёты имеют подробные
-                        инструкции и видео, помогающие легко читать их и использовать.</p>
+                    <div class="d-flex choose__item-header">
+                        <h3 class="mb-3 choose__item-title">Стартовый +</h3>
+                    </div>
+                    <p class="mb-2 choose__item-payment">4 491 ₽/мес</p>
+                    <p class="mb-3 text-mpas1 choose__item-text">4 990 ₽</p>
+                    <button type="button" class="d-block w-100 align-self-center mb-3 px-4 button button--mpas">Попробовать</button>
+                    <button type="button" class="d-block w-100 align-self-center px-4 button">
+                        <span>Подробнее</span>
+                        <img src="./img/choose/arrow-right.png" alt="arrow" class="mx-2 choose__icon">
+                    </button>
                 </div>
             </li>
             <li class="col-4  choose__item">
-                <div class="m-3 p-4 bg-mpas5 choose__item-wrap">
-                    <div class="d-flex choose__item-header">
-
-                        <h3 class="ps-3 choose__item-title">Лёгкость освоения</h3>
+                <div class="m-3 p-4 choose__item-wrap choose__item-wrap--profi">
+                    <div class="text-center choose__item-discount">
+                        <span class="d-block my-2">— 15%</span>
                     </div>
-                    <p class="text-mpas4 choose__item-text">Наши отчёты просты и удобны. Все отчёты имеют подробные
-                        инструкции и видео, помогающие легко читать их и использовать.</p>
+                    <div class="d-flex choose__item-header">
+                        <h3 class="mb-3 choose__item-title">Профи</h3>
+                    </div>
+                    <p class="mb-2 choose__item-payment">4 241 ₽/мес</p>
+                    <p class="mb-3 text-mpas1 choose__item-text">25 446 ₽</p>
+                    <button type="button" class="d-block w-100 align-self-center mb-3 px-4 button button--mpas">Попробовать</button>
+                    <button type="button" class="d-block w-100 align-self-center px-4 button">
+                        <span>Подробнее</span>
+                        <img src="./img/choose/arrow-right.png" alt="arrow" class="mx-2 choose__icon">
+                    </button>
                 </div>
             </li>
         </ul>
     </section>
 
-
+    <div class="custom1">
+        <span class="align-baseline">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-middle">middle</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-text-top">text-top</span>
+        <span class="align-text-bottom">text-bottom</span>
+    </div>
 
     <div class="bg-mpas2">
         <p>

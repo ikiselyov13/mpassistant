@@ -7,6 +7,7 @@
 
     .opportunities__card {
         min-height: 700px;
+        @include shadow;
     }
 
     .opportunities__list {

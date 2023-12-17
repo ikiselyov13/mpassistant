@@ -14691,6 +14691,7 @@ body {
 }
 .opportunities .opportunities__card {
   min-height: 700px;
+  box-shadow: 0px -1px 29px -3px rgba(34, 60, 80, 0.2);
 }
 .opportunities .opportunities__list {
   font-size: 26px;
@@ -14811,19 +14812,50 @@ body {
   font-weight: 700;
   line-height: 58px;
 }
+.choose .choose__header-button {
+  width: 45%;
+}
 .choose .choose__item .choose__item-wrap {
-  min-height: 351px;
+  /*background-color: mpas5;*/
+  background: #E8F2FC;
+  min-height: 290px;
   border-radius: 10px;
+  position: relative;
+}
+.choose .choose__item .choose__item-wrap:hover {
+  background: #fff;
+  box-shadow: 0px -1px 29px -3px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+.choose .choose__item .choose__item-wrap--profi {
+  /*background: #d5f5ed;*/
+  background: #e9f7f4;
+}
+.choose .choose__item .choose__item-discount {
+  width: 100px;
+  height: 50px;
+  border-radius: 0 10px 0 10px;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /*background-color: mpas1;*/
+  background: #2A84EE;
+  font-size: 20px;
+  font-weight: 700;
 }
 .choose .choose__item .choose__item-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
 }
+.choose .choose__item .choose__item-payment {
+  height: 30px;
+}
 .choose .choose__item .choose__item-text {
   font-size: 30px;
   font-weight: 700;
-  line-height: 58px;
+  /*line-height: 58px;*/
 }
 .choose .choose__icon {
   display: inline-block;
@@ -14832,6 +14864,8 @@ body {
 }
 
 .custom1 {
+  width: 800px;
+  height: 100px;
   background: #fd9843;
 }
 
