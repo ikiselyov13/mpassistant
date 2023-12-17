@@ -14558,6 +14558,7 @@ body {
   color: white;
   border: none;
   background: linear-gradient(to right, #11AE88, #0495ba);
+  opacity: 100%;
 }
 
 .button:hover {
@@ -14762,8 +14763,9 @@ body {
   line-height: 38px;
 }
 .why .why__item .why__item-icon {
-  height: 35px;
+  display: inline-block;
   width: 35px;
+  height: 35px;
 }
 
 .trial {
@@ -14795,6 +14797,31 @@ body {
   z-index: 0;
   bottom: 0px;
   left: 470px;
+}
+
+.choose .choose__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.choose .choose__item .choose__item-wrap {
+  min-height: 351px;
+  border-radius: 10px;
+}
+.choose .choose__item .choose__item-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.choose .choose__item .choose__item-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.choose .choose__icon {
+  display: inline-block;
+  width: 22px;
+  height: auto;
 }
 
 .custom1 {

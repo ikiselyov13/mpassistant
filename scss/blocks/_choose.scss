@@ -1,0 +1,30 @@
+.choose {
+
+    .choose__title {
+        @include section-title;
+    }
+
+    .choose__item {
+
+        .choose__item-wrap {
+            min-height: 351px;
+            border-radius: 10px;
+        }
+
+        .choose__item-title {
+            @include section-subtitle;
+        }
+
+        .choose__item-text {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+    }
+
+    .choose__icon {
+        display: inline-block;
+        width: 22px;
+        height: auto;
+    }
+}
