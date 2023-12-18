@@ -44,7 +44,7 @@
         }
 
         .choose__item-title {
-            @include section-subtitle;
+            @include card-title;
         }
 
         .choose__item-payment {

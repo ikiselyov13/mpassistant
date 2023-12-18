@@ -37,9 +37,7 @@
     .opportunities__content {
 
         .opportunities__content-title {
-            font-size: 30px;
-            font-weight: 700;
-            line-height: 38px;
+            @include section-subtitle;
         }
     }
 }

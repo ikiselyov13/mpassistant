@@ -25,6 +25,12 @@
     line-height: 38px;
 }
 
+@mixin card-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
 /*@mixin picture-element {
     position: absolute;
     z-index: 1;
@@ -40,5 +46,5 @@
 }
 
 @mixin shadow {
-    box-shadow:0px -1px 29px -3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px -1px 29px -3px rgba(34, 60, 80, 0.2);
 }
