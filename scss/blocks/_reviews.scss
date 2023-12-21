@@ -1,0 +1,67 @@
+.reviews {
+
+    .reviews__title {
+        @include section-title;
+    }
+
+    .reviews__control {
+        width: 140px;
+    }
+
+    /*.reviews__list {
+        height: 445px;
+    }*/
+
+    .reviews__item {
+        min-height: 445px;
+
+        .reviews__item-wrap {
+            /*z-index: -1;*/
+            background: no-repeat url('/img/reviews/quote.png');
+        }
+
+        .reviews__item-text {
+            height: 300px;
+            /*background: $red-500;*/
+            overflow: hidden;
+            position: relative;
+        }
+
+        .reviews__item-text:after {
+            content: "";
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 1.2em;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E8F2FC);
+            pointer-events: none;
+        }
+
+        .reviews__item-button {
+            border: none;
+            order: 1;
+            font-weight: 700;
+            font-size: 24px;
+            /*color: mpas2*/
+            color: #2EB897;
+            background: transparent;
+            width: 40%;
+        }
+
+        .reviews__item-button:hover {
+            /*color: mpas1*/
+            color: #2A84EE;
+        }
+
+        .reviews__item-button:focus+.reviews__item-text {
+            height: auto;
+        }
+
+        .reviews__item-signature {
+            order: 2;
+            @include card-title;
+        }
+    }
+}

@@ -14908,6 +14908,67 @@ body {
   right: -45px;
 }
 
+.reviews {
+  /*.reviews__list {
+      height: 445px;
+  }*/
+}
+.reviews .reviews__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.reviews .reviews__control {
+  width: 140px;
+}
+.reviews .reviews__item {
+  min-height: 445px;
+}
+.reviews .reviews__item .reviews__item-wrap {
+  /*z-index: -1;*/
+  background: no-repeat url("/img/reviews/quote.png");
+}
+.reviews .reviews__item .reviews__item-text {
+  height: 300px;
+  /*background: $red-500;*/
+  overflow: hidden;
+  position: relative;
+}
+.reviews .reviews__item .reviews__item-text:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 1.2em;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #E8F2FC);
+  pointer-events: none;
+}
+.reviews .reviews__item .reviews__item-button {
+  border: none;
+  order: 1;
+  font-weight: 700;
+  font-size: 24px;
+  /*color: mpas2*/
+  color: #2EB897;
+  background: transparent;
+  width: 40%;
+}
+.reviews .reviews__item .reviews__item-button:hover {
+  /*color: mpas1*/
+  color: #2A84EE;
+}
+.reviews .reviews__item .reviews__item-button:focus + .reviews__item-text {
+  height: auto;
+}
+.reviews .reviews__item .reviews__item-signature {
+  order: 2;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
 .custom1 {
   width: 800px;
   height: 100px;
