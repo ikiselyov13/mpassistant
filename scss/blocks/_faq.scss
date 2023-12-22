@@ -1,7 +1,5 @@
 .faq {
-
     min-height: 710px;
-    background: $red-500;
 
     .faq__title {
         @include section-title;
@@ -25,6 +23,18 @@
 
         .faq__picture-element-2 {
             @include picture-element(absolute, 0, 70px, -60px);
+        }
+    }
+
+    .faq__accordion {
+
+        .faq__accordion-item {
+            border-radius: 10px
+        }
+
+        .faq__accordion-item-title {
+            @include card-title;
+            border-radius: 10px;
         }
     }
 }

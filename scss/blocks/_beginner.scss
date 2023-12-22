@@ -1,6 +1,7 @@
 .beginner {
     min-height: 345px;
     background: linear-gradient(to right, #FFF1D7, #FFB57F);
+    border-radius: 10px;
 
     .beginner__title {
         @include card-title;

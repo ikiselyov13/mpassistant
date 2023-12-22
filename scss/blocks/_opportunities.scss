@@ -1,5 +1,6 @@
 .opportunities {
     min-height: 750px;
+    border-radius: 10px;
 
     .opportunities__title {
         @include section-title;

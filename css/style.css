@@ -14693,6 +14693,7 @@ body {
 
 .opportunities {
   min-height: 750px;
+  border-radius: 10px;
 }
 .opportunities .opportunities__title {
   font-size: 40px;
@@ -14876,6 +14877,7 @@ body {
 .beginner {
   min-height: 345px;
   background: linear-gradient(to right, #FFF1D7, #FFB57F);
+  border-radius: 10px;
 }
 .beginner .beginner__title {
   font-size: 26px;
@@ -14933,6 +14935,7 @@ body {
 }
 .reviews .reviews__item {
   min-height: 445px;
+  border-radius: 10px;
 }
 .reviews .reviews__item .reviews__item-wrap {
   /*z-index: -1;*/
@@ -14981,7 +14984,6 @@ body {
 
 .faq {
   min-height: 710px;
-  background: #dc3545;
 }
 .faq .faq__title {
   font-size: 40px;
@@ -15012,6 +15014,15 @@ body {
   z-index: 0;
   bottom: 70px;
   left: -60px;
+}
+.faq .faq__accordion .faq__accordion-item {
+  border-radius: 10px;
+}
+.faq .faq__accordion .faq__accordion-item-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  border-radius: 10px;
 }
 
 .custom1 {
