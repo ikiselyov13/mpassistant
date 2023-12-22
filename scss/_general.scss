@@ -56,6 +56,10 @@ body {
         @include section-title;
     }
 
+    .form__title--faq {
+        @include section-subtitle;
+    }
+
     .form__input {
         border-radius: 30px;
     }

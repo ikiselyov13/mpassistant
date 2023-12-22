@@ -1,0 +1,26 @@
+.faq {
+
+    .faq__title {
+        @include section-title;
+    }
+
+    .faq__form {
+        @include form-box-props;
+    }
+
+    .faq__picture {
+        position: relative;
+
+        .faq__picture-element-1 {
+            @include picture-element(absolute, 0, -48px, 0px);
+        }
+
+        .faq__picture-element-2 {
+            @include picture-element(absolute, 1, -48px, 150px);
+        }
+
+        .faq__picture-element-3 {
+            @include picture-element(absolute, 0, -0px, 470px);
+        }
+    }
+}

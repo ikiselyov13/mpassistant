@@ -46,4 +46,5 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import './blocks/choose';
 @import './blocks/beginner';
 @import './blocks/reviews';
+@import './blocks/faq';
 @import '../scss/blocks/test-block';
