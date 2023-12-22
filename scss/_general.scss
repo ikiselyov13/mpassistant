@@ -31,6 +31,10 @@ body {
     background: linear-gradient(to right, #11AE88, #0495ba);
 }
 
+.button--faq {
+    background: linear-gradient(to right, #0495ba, #11AE88);
+}
+
 .button:hover {
     border: none;
     color: white;
@@ -61,6 +65,7 @@ body {
     }
 
     .form__input {
+        height: 42px;
         border-radius: 30px;
     }
 

@@ -14566,6 +14566,10 @@ body {
   background: linear-gradient(to right, #11AE88, #0495ba);
 }
 
+.button--faq {
+  background: linear-gradient(to right, #0495ba, #11AE88);
+}
+
 .button:hover {
   border: none;
   color: white;
@@ -14594,6 +14598,7 @@ body {
   line-height: 38px;
 }
 .form .form__input {
+  height: 42px;
   border-radius: 30px;
 }
 .form .form__input::placeholder {
@@ -14974,37 +14979,39 @@ body {
   line-height: 30px;
 }
 
+.faq {
+  min-height: 710px;
+  background: #dc3545;
+}
 .faq .faq__title {
   font-size: 40px;
   font-weight: 700;
   line-height: 58px;
 }
 .faq .faq__form {
-  min-height: 234px;
+  min-height: 710px;
   border-radius: 20px;
   background: linear-gradient(to right, #11AE88, #0495ba);
   color: #f8f9fa;
 }
+.faq .faq__form .faq__form-text {
+  font-size: 18px;
+}
 .faq .faq__picture {
   position: relative;
+  min-height: 320px;
 }
 .faq .faq__picture .faq__picture-element-1 {
   position: absolute;
-  z-index: 0;
-  bottom: -48px;
-  left: 0px;
+  z-index: 1;
+  bottom: 0;
+  left: 50px;
 }
 .faq .faq__picture .faq__picture-element-2 {
   position: absolute;
-  z-index: 1;
-  bottom: -48px;
-  left: 150px;
-}
-.faq .faq__picture .faq__picture-element-3 {
-  position: absolute;
   z-index: 0;
-  bottom: 0px;
-  left: 470px;
+  bottom: 70px;
+  left: -60px;
 }
 
 .custom1 {

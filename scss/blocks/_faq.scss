@@ -1,26 +1,30 @@
 .faq {
 
+    min-height: 710px;
+    background: $red-500;
+
     .faq__title {
         @include section-title;
     }
 
     .faq__form {
-        @include form-box-props;
+        @include form-box-props (710px);
+
+        .faq__form-text {
+            font-size: 18px;
+        }
     }
 
     .faq__picture {
         position: relative;
+        min-height: 320px;
 
         .faq__picture-element-1 {
-            @include picture-element(absolute, 0, -48px, 0px);
+            @include picture-element(absolute, 1, 0, 50px);
         }
 
         .faq__picture-element-2 {
-            @include picture-element(absolute, 1, -48px, 150px);
-        }
-
-        .faq__picture-element-3 {
-            @include picture-element(absolute, 0, -0px, 470px);
+            @include picture-element(absolute, 0, 70px, -60px);
         }
     }
 }
