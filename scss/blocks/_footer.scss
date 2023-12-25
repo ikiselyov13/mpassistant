@@ -1,0 +1,48 @@
+.footer {
+    min-height: 532px;
+    /*height: 532px;*/
+
+    .footer__market-link {
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .footer__market-link:hover {
+        text-decoration: underline;
+    }
+
+    .footer__linkbar {
+
+        .footer__linkbar-subtitle {
+            font-weight: 700;
+        }
+
+        .footer__linkbar-link {
+            text-decoration: none;
+            /*color: mpas4*/
+            color: #6C778E;
+        }
+
+        .footer__linkbar-link:hover {
+            /*color: mpas1*/
+            color: #2A84EE;
+        }
+    }
+
+    .footer__design {
+
+        .footer__design-link {
+            text-decoration: none;
+            font-weight: 700;
+            /*color: mpas2*/
+            color: #2EB897;
+        }
+
+        .footer__design-link:hover {
+            /*color: mpas1*/
+            color: #2A84EE;
+        }
+    }
+
+
+}
